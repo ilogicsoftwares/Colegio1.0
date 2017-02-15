@@ -1,0 +1,43 @@
+
+
+SELECT mensuales 
+GO top
+FOR i=1 TO RECCOUNT('mensuales')
+
+xyalumno=VAL(cod_alumno)
+SQLEXEC(gnx,"select inscripcion from inscripcion where idalumno=?xyalumno","insx")
+montago=insx.inscripcion/10
+SELECT mensuales
+FOR x= 1 TO 11
+men="Mensualid" + TRANSFORM(x)
+IF x>9 then
+men="Mensuali" + TRANSFORM(x)
+endif
+rec="Recibom" + TRANSFORM(x)
+rec2="Recibof" + TRANSFORM(x)
+frac="Fraccion" + TRANSFORM(x)
+fec="fec" + TRANSFORM(x)
+mesx=MONTH(&fec)
+tranx="FAC" + &REC
+IF x<=10 then
+tranx2="FAC" + &REC2
+ENDIF
+
+IF &men=.T. THEN 
+?SQLEXEC(gnx,"update mensualidad set saldo=0,idtran=?tranx where idalumno=?xyalumno and MONTH(mes)=?mesx")
+ENDIF
+IF x<=10 then
+IF &frac=.T. THEN 
+?SQLEXEC(gnx,"update mensualidad set saldo=saldo-montago,idtran=?tranx2 where idalumno=?xyalumno and MONTH(mes)=8")
+ENDIF
+endif
+
+
+ENDFOR
+
+
+SELECT mensuales
+skip
+ENDFOR
+
+

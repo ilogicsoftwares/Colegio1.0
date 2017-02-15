@@ -1,0 +1,399 @@
+
+
+Fatal error: Exception code=C0000006 @ 24/10/2012 10:18:48 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 22/01/2013 09:36:19 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command9.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 27/02/2013 11:29:05 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 28/02/13 09:33:11 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  form1.command3.click line 1  {\\mostrador\c\cobranza\frmsaldos.sct \\mostrador\c\cobranza\frmsaldos.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 01/03/2013 04:35:32 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command2.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 01/03/2013 04:37:55 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 06/03/2013 03:10:26 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmncontrato.command4.click line 2  {\\mostrador\c\cobranza\frmcontrato.sct \\mostrador\c\cobranza\frmcontrato.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 07/03/2013 09:49:09 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 07/03/2013 11:50:35 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  form1.command1.click line 72  {\\mostrador\c\cobranza\frmpagosp.sct \\mostrador\c\cobranza\frmpagosp.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 07/03/2013 02:46:26 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  _3qd0pr1rr.unload line 1  {\\mostrador\c\cobranza\frmmain.sct \\mostrador\c\cobranza\frmmain.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 07/03/2013 03:09:49 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 07/03/2013 04:51:07 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command2.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 11/03/2013 10:13:29 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 11/03/2013 03:08:37 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  form1.grid1.dblclick line 7  {\\mostrador\c\cobranza\frmlcont.sct \\mostrador\c\cobranza\frmlcont.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 14/03/2013 03:14:25 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 14/03/13 04:12:30 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 18/03/2013 08:40:45 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 20/03/13 04:02:52 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  form1.command3.click line 1  {\\mostrador\c\cobranza\frmsaldos.sct \\mostrador\c\cobranza\frmsaldos.sct}
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 21/03/2013 03:37:23 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000005 @ 21/03/2013 04:45:37 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000005 @ 05/04/2013 10:16:55 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 11/04/2013 03:47:36 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000005 @ 12/04/2013 03:36:57 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 19/04/2013 10:30:35 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 02/05/2013 03:43:38 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  ON...  line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 04/05/2013 10:10:02 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 26  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 06/05/2013 05:54:37 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 07/05/2013 11:40:34 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 07/05/2013 02:08:01 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 18/05/2013 11:53:40 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  ON...  line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 20/05/2013 02:57:47 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 21/05/2013 04:27:52 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 23/05/2013 09:08:40 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 24/05/2013 09:07:40 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command9.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 25/05/2013 10:50:08 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 29/05/2013 12:19:52 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 29/05/2013 02:25:58 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 03/06/2013 09:08:11 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 03/06/2013 09:12:34 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 05/06/2013 09:19:24 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmncontrato.command4.click line 11  {\\mostrador\c\cobranza\frmcontrato.sct \\mostrador\c\cobranza\frmcontrato.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 01/01/2013 04:24:32 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 07/06/2013 09:57:25 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 08/06/2013 09:12:32 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 10/06/2013 08:35:35 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 10/06/2013 09:30:39 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 12/06/2013 09:42:46 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 12/06/2013 02:07:11 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 28/06/2013 04:40:49 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command9.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 28/06/2013 04:47:42 PM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 28  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 08/07/2013 08:05:10 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 36  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Error grave: código de excepción=C0000005 @ 07/12/13 03:46:02 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/12/13 03:52:11 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/12/13 03:52:33 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/12/13 03:52:49 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 10:46:57 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 10:47:41 AM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 10:49:57 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:04:06 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:07:17 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:07:37 AM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:09:02 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:09:57 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:22:13 AM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:24:35 AM. Archivo de registro de errores: Z:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:29:34 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:29:54 AM. Archivo de registro de errores: V:\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:30:43 AM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:34:55 AM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 11:35:28 AM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 02:19:02 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 02:19:16 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 02:20:05 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 02:22:32 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 07/18/13 02:24:47 PM. Archivo de registro de errores: \\mostrador\C\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 26/07/2013 08:09:13 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 37  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 16/08/2013 08:16:26 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command2.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 37  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 20/08/2013 09:55:38 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command2.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 37  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 23/08/2013 10:08:34 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command2.click line 3  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 37  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 28/08/2013 09:55:55 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  frmmenu.command1.click line 4  {\\mostrador\c\cobranza\frmmenu.sct \\mostrador\c\cobranza\frmmenu.sct}
+	Called from -  mainprog line 37  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 08/30/2013 11:02:22 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 30/08/2013 11:45:10 AM. Error log file: \\Mostrador\c\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 37  {\\Mostrador\c\Cobranza\mainprog.prg \\mostrador\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 31/08/2013 09:04:46 AM. Error log file: \\PC05\c\Cobranza\VFP9Rerr.log
+	Called from -  _3va0hxwly.unload line 1  {\\pc05\c\cobranza\frmmain.sct \\pc05\c\cobranza\frmmain.sct}
+	Called from -  mainprog line 37  {\\PC05\c\Cobranza\mainprog.prg \\pc05\c\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 11/09/2013 04:04:01 PM. Error log file: Z:\Cobranza\VFP9Rerr.log
+	Called from -  _3vl0w6isy.timer2.timer line 3  {z:\cobranza\frmmain.sct z:\cobranza\frmmain.sct}
+	Called from -  mainprog line 37  {\\dccp01\sistema\cobranza\mainprog.prg z:\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 21/10/13 08:32:31 AM. Error log file: Z:\Cobranza\VFP9Rerr.log
+	Called from -  form1.text1.valid line 25  {z:\cobranza\frmsaldos.sct z:\cobranza\frmsaldos.sct}
+	Called from -  mainprog line 42  {Z:\Cobranza\mainprog.prg z:\cobranza\cobranza.exe}
+
+
+Error grave: código de excepción=C0000005 @ 10/21/13 09:00:27 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 10/23/13 11:57:05 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 10/23/13 11:57:26 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 10/23/13 11:57:29 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 10/26/13 09:10:50 AM. Archivo de registro de errores: \\Dccp01\Sistema\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 10/26/13 09:10:58 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 10/26/13 09:35:21 AM. Archivo de registro de errores: \\Dccp01\Sistema\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 12/03/13 08:06:47 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 12/03/13 08:13:44 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 12/03/13 08:14:11 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 12/03/13 08:14:29 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Error grave: código de excepción=C0000005 @ 12/03/13 08:38:25 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000005 @ 12/12/2013 03:16:26 PM. Error log file: Z:\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 42  {Z:\Cobranza\mainprog.prg z:\cobranza\cobranza.exe}
+
+
+Error grave: código de excepción=C0000005 @ 01/17/14 08:59:28 AM. Archivo de registro de errores: Z:\Cobranza\VFP9Rerr.log
+
+
+Fatal error: Exception code=C0000006 @ 07/02/2014 11:04:50 AM. Error log file: Z:\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 43  {Z:\Cobranza\mainprog.prg z:\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 07/02/14 11:16:45 AM. Error log file: Z:\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 43  {Z:\Cobranza\mainprog.prg z:\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 11/02/14 02:47:22 PM. Error log file: \\Dccp01\Sistema\Cobranza\VFP9Rerr.log
+	Called from -  form1.load line 9  {\\dccp01\sistema\cobranza\frmlcont.sct \\dccp01\sistema\cobranza\frmlcont.sct}
+	Called from -  form1.command7.click line 8  {\\dccp01\sistema\cobranza\frmsaldos.sct \\dccp01\sistema\cobranza\frmsaldos.sct}
+	Called from -  mainprog line 43  {\\Dccp01\Sistema\Cobranza\mainprog.prg \\dccp01\sistema\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000006 @ 04/01/2014 04:42:48 PM. Error log file: \\Dccp01\Sistema\Cobranza\VFP9Rerr.log
+	Called from -  mainprog line 29  {\\Dccp01\Sistema\Cobranza\mainprog.prg \\dccp01\sistema\cobranza\cobranza.exe}
+
+
+Fatal error: Exception code=C0000005 @ 03/03/2015 04:11:55 PM. Error log file: C:\Colegio\VFP9Rerr.log
+	Called from -  mainpro line 57  {C:\Colegio\mainpro.prg c:\colegio\colegios.exe}
