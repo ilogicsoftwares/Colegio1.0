@@ -43,7 +43,7 @@ odbcdatabase=ALLTRIM(SUBSTR(initarray(3),1,29))
 
 Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx
 
-
+SQLSETPROP(gnx,"DispWarnings",.T.)
 
 
 
@@ -59,6 +59,7 @@ odbcusuario=ALLTRIM(SUBSTR(initarray(5),1,29))
 odbcdatabase=ALLTRIM(SUBSTR(initarray(3),1,29))
 
 Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx
+SQLSETPROP(gnx,"DispWarnings",.T.)
 SQLEXEC(gnx,"select idperiodo from periodo where estatus=1","perx")
 PUBLIC periact as Integer 
 periact=perx.idperiodo

@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 02/14/17              MENU1.MPR               15:43:44  
+*       * 02/16/17              MENU1.MPR               02:21:14  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -138,20 +138,20 @@ IF m.lHasNewMenu
 	DEFINE MENU (m.cMenuName) IN (m.oFormRef.Name) BAR
 ENDIF
 
-DEFINE PAD _4uk0xpngb OF (m.cMenuName) PROMPT "Inicio" COLOR SCHEME 3 ;
+DEFINE PAD _4um051n33 OF (m.cMenuName) PROMPT "Inicio" COLOR SCHEME 3 ;
 	KEY ALT+I, ""
-DEFINE PAD _4uk0xpngc OF (m.cMenuName) PROMPT "Procesos" COLOR SCHEME 3 ;
+DEFINE PAD _4um051n34 OF (m.cMenuName) PROMPT "Procesos" COLOR SCHEME 3 ;
 	KEY ALT+P, ""
-DEFINE PAD _4uk0xpngd OF (m.cMenuName) PROMPT "Ventas" COLOR SCHEME 3 ;
+DEFINE PAD _4um051n35 OF (m.cMenuName) PROMPT "Ventas" COLOR SCHEME 3 ;
 	KEY ALT+V, ""
-DEFINE PAD _4uk0xpnge OF (m.cMenuName) PROMPT "Reportes" COLOR SCHEME 3 ;
+DEFINE PAD _4um051n36 OF (m.cMenuName) PROMPT "Reportes" COLOR SCHEME 3 ;
 	KEY ALT+R, ""
-DEFINE PAD _4uk0xpngf OF (m.cMenuName) PROMPT "Ayuda" COLOR SCHEME 3 ;
+DEFINE PAD _4um051n37 OF (m.cMenuName) PROMPT "Ayuda" COLOR SCHEME 3 ;
 	KEY ALT+A, ""
-ON PAD _4uk0xpngb OF (m.cMenuName) ACTIVATE POPUP (a_menupops[1])
-ON PAD _4uk0xpngc OF (m.cMenuName) ACTIVATE POPUP (a_menupops[5])
-ON PAD _4uk0xpngd OF (m.cMenuName) ACTIVATE POPUP (a_menupops[6])
-ON PAD _4uk0xpnge OF (m.cMenuName) ACTIVATE POPUP (a_menupops[10])
+ON PAD _4um051n33 OF (m.cMenuName) ACTIVATE POPUP (a_menupops[1])
+ON PAD _4um051n34 OF (m.cMenuName) ACTIVATE POPUP (a_menupops[5])
+ON PAD _4um051n35 OF (m.cMenuName) ACTIVATE POPUP (a_menupops[6])
+ON PAD _4um051n36 OF (m.cMenuName) ACTIVATE POPUP (a_menupops[10])
 
 DEFINE POPUP (a_menupops[1]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[1]) PROMPT "Nuevo"
@@ -169,48 +169,49 @@ DEFINE BAR 3 OF (a_menupops[2]) PROMPT "Secciones"
 DEFINE BAR 4 OF (a_menupops[2]) PROMPT "Productos"
 DEFINE BAR 5 OF (a_menupops[2]) PROMPT "Banco"
 DEFINE BAR 6 OF (a_menupops[2]) PROMPT "Cuenta Bancaria"
+DEFINE BAR 7 OF (a_menupops[2]) PROMPT "Planes de Cobro"
 ON SELECTION BAR 1 OF (a_menupops[2]) ;
-	DO _4uk0xpngv ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n38 ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[2]) ;
-	DO _4uk0xpngw ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n39 ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 3 OF (a_menupops[2]) ;
-	DO _4uk0xpngx ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3a ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON BAR 4 OF (a_menupops[2]) ACTIVATE POPUP (a_menupops[3])
 ON SELECTION BAR 5 OF (a_menupops[2]) ;
-	DO _4uk0xpngy ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3b ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 6 OF (a_menupops[2]) ;
-	DO _4uk0xpngz ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3c ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[3]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[3]) PROMPT "Crear Producto"
 DEFINE BAR 2 OF (a_menupops[3]) PROMPT "Crear grupo"
 ON SELECTION BAR 1 OF (a_menupops[3]) ;
-	DO _4uk0xpnh0 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3d ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[3]) ;
-	DO _4uk0xpnh1 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3e ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[4]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[4]) PROMPT "Periodo"
 ON SELECTION BAR 1 OF (a_menupops[4]) ;
-	DO _4uk0xpnh2 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3f ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[5]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[5]) PROMPT "Inscripcion"
 DEFINE BAR 2 OF (a_menupops[5]) PROMPT "Cambio de Costos"
 ON SELECTION BAR 1 OF (a_menupops[5]) ;
-	DO _4uk0xpnh3 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3g ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[5]) ;
-	DO _4uk0xpnh4 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3h ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[6]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[6]) PROMPT "Facturar"
@@ -220,14 +221,14 @@ DEFINE BAR 4 OF (a_menupops[6]) PROMPT "\-"
 DEFINE BAR 5 OF (a_menupops[6]) PROMPT "Notas/Anulaciones"
 DEFINE BAR 6 OF (a_menupops[6]) PROMPT "Inventario"
 ON SELECTION BAR 1 OF (a_menupops[6]) ;
-	DO _4uk0xpnh5 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3i ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[6]) ;
-	DO _4uk0xpnh6 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3j ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 3 OF (a_menupops[6]) ;
-	DO _4uk0xpnh7 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3k ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON BAR 5 OF (a_menupops[6]) ACTIVATE POPUP (a_menupops[7])
 ON BAR 6 OF (a_menupops[6]) ACTIVATE POPUP (a_menupops[9])
 
@@ -238,30 +239,30 @@ DEFINE BAR 3 OF (a_menupops[7]) PROMPT "Inscripcion"
 DEFINE BAR 4 OF (a_menupops[7]) PROMPT "Solvencia"
 ON BAR 1 OF (a_menupops[7]) ACTIVATE POPUP (a_menupops[8])
 ON SELECTION BAR 2 OF (a_menupops[7]) ;
-	DO _4uk0xpnh8 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3l ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 3 OF (a_menupops[7]) ;
-	DO _4uk0xpnh9 ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3m ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 4 OF (a_menupops[7]) ;
-	DO _4uk0xpnha ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3n ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[8]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[8]) PROMPT "Por Factura"
 DEFINE BAR 2 OF (a_menupops[8]) PROMPT "Por Alumno"
 ON SELECTION BAR 1 OF (a_menupops[8]) ;
-	DO _4uk0xpnhb ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3o ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[8]) ;
-	DO _4uk0xpnhc ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3p ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[9]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[9]) PROMPT "Entrada/Salida"
 ON SELECTION BAR 1 OF (a_menupops[9]) ;
-	DO _4uk0xpnhd ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3q ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[10]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[10]) PROMPT "Alumnos"
@@ -277,45 +278,45 @@ DEFINE BAR 2 OF (a_menupops[11]) PROMPT "Morosos"
 DEFINE BAR 3 OF (a_menupops[11]) PROMPT "Recordatorio"
 DEFINE BAR 4 OF (a_menupops[11]) PROMPT "Saldos"
 ON SELECTION BAR 1 OF (a_menupops[11]) ;
-	DO _4uk0xpnhe ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3r ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[11]) ;
-	DO _4uk0xpnhf ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3s ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 3 OF (a_menupops[11]) ;
-	DO _4uk0xpnhg ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3t ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 4 OF (a_menupops[11]) ;
-	DO _4uk0xpnhh ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3u ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[12]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[12]) PROMPT "Ingresos a bancos"
 DEFINE BAR 2 OF (a_menupops[12]) PROMPT "Reporte general de ventas"
 DEFINE BAR 3 OF (a_menupops[12]) PROMPT "Reporte general de productos"
 ON SELECTION BAR 1 OF (a_menupops[12]) ;
-	DO _4uk0xpnhi ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3v ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[12]) ;
-	DO _4uk0xpnhj ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3w ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 3 OF (a_menupops[12]) ;
-	DO _4uk0xpnhk ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3x ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 DEFINE POPUP (a_menupops[13]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF (a_menupops[13]) PROMPT "Factura"
 DEFINE BAR 2 OF (a_menupops[13]) PROMPT "Nota de Credito"
 DEFINE BAR 3 OF (a_menupops[13]) PROMPT "Nota de Debito"
 ON SELECTION BAR 1 OF (a_menupops[13]) ;
-	DO _4uk0xpnhl ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3y ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 2 OF (a_menupops[13]) ;
-	DO _4uk0xpnhm ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n3z ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 ON SELECTION BAR 3 OF (a_menupops[13]) ;
-	DO _4uk0xpnhn ;
-	IN LOCFILE("\COLEGIO\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
+	DO _4um051n40 ;
+	IN LOCFILE("\COLEGIO1.0\MENU1" ,"MPX;MPR|FXP;PRG" ,"WHERE is MENU1?")
 
 ACTIVATE MENU (m.cMenuName) NOWAIT
 
@@ -327,7 +328,7 @@ ENDIF
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNGV  ON SELECTION BAR 1 OF POPUP nuevo           
+*       * _4UM051N38  ON SELECTION BAR 1 OF POPUP nuevo           
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -338,13 +339,13 @@ ENDIF
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpngv
+PROCEDURE _4um051n38
 abrirform("frmalumno")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNGW  ON SELECTION BAR 2 OF POPUP nuevo           
+*       * _4UM051N39  ON SELECTION BAR 2 OF POPUP nuevo           
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -355,13 +356,13 @@ abrirform("frmalumno")
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpngw
+PROCEDURE _4um051n39
 abrirform("grados")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNGX  ON SELECTION BAR 3 OF POPUP nuevo           
+*       * _4UM051N3A  ON SELECTION BAR 3 OF POPUP nuevo           
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -372,13 +373,13 @@ abrirform("grados")
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpngx
+PROCEDURE _4um051n3a
 abrirform("secciones")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNGY  ON SELECTION BAR 5 OF POPUP nuevo           
+*       * _4UM051N3B  ON SELECTION BAR 5 OF POPUP nuevo           
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -389,13 +390,13 @@ abrirform("secciones")
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpngy
+PROCEDURE _4um051n3b
 abrirform("frmbanco")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNGZ  ON SELECTION BAR 6 OF POPUP nuevo           
+*       * _4UM051N3C  ON SELECTION BAR 6 OF POPUP nuevo           
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -406,13 +407,13 @@ abrirform("frmbanco")
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpngz
+PROCEDURE _4um051n3c
 abrirform("frmcuenta")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH0  ON SELECTION BAR 1 OF POPUP productos       
+*       * _4UM051N3D  ON SELECTION BAR 1 OF POPUP productos       
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -423,13 +424,13 @@ abrirform("frmcuenta")
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh0
+PROCEDURE _4um051n3d
 abrirform("frmproducto")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH1  ON SELECTION BAR 2 OF POPUP productos       
+*       * _4UM051N3E  ON SELECTION BAR 2 OF POPUP productos       
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -440,109 +441,109 @@ abrirform("frmproducto")
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh1
+PROCEDURE _4um051n3e
 abrirform("frmgrupo")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH2  ON SELECTION BAR 1 OF POPUP configurac      
+*       * _4UM051N3F  ON SELECTION BAR 1 OF POPUP configurac      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   18          
+*       * From Menu:  MENU1.MPR,            Record:   19          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP configurac      
 *       * Prompt:     Periodo                                     
 *       * Snippet:    8                                           
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh2
+PROCEDURE _4um051n3f
 abrirform("frmperiodo")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH3  ON SELECTION BAR 1 OF POPUP procesos        
+*       * _4UM051N3G  ON SELECTION BAR 1 OF POPUP procesos        
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   23          
+*       * From Menu:  MENU1.MPR,            Record:   24          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP procesos        
 *       * Prompt:     Inscripcion                                 
 *       * Snippet:    9                                           
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh3
+PROCEDURE _4um051n3g
 abrirform("frminscripcion")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH4  ON SELECTION BAR 2 OF POPUP procesos        
+*       * _4UM051N3H  ON SELECTION BAR 2 OF POPUP procesos        
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   24          
+*       * From Menu:  MENU1.MPR,            Record:   25          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP procesos        
 *       * Prompt:     Cambio de Costos                            
 *       * Snippet:    10                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh4
+PROCEDURE _4um051n3h
 abrirform("frmcambiodecostos")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH5  ON SELECTION BAR 1 OF POPUP ventas          
+*       * _4UM051N3I  ON SELECTION BAR 1 OF POPUP ventas          
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   27          
+*       * From Menu:  MENU1.MPR,            Record:   28          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP ventas          
 *       * Prompt:     Facturar                                    
 *       * Snippet:    11                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh5
+PROCEDURE _4um051n3i
 abrirform("frmfacturas")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH6  ON SELECTION BAR 2 OF POPUP ventas          
+*       * _4UM051N3J  ON SELECTION BAR 2 OF POPUP ventas          
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   28          
+*       * From Menu:  MENU1.MPR,            Record:   29          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP ventas          
 *       * Prompt:     Saldos                                      
 *       * Snippet:    12                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh6
+PROCEDURE _4um051n3j
 abrirform("frmsaldo")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH7  ON SELECTION BAR 3 OF POPUP ventas          
+*       * _4UM051N3K  ON SELECTION BAR 3 OF POPUP ventas          
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   29          
+*       * From Menu:  MENU1.MPR,            Record:   30          
 *       * Called By:  ON SELECTION BAR 3 OF POPUP ventas          
 *       * Prompt:     Correlativo FacFisica                       
 *       * Snippet:    13                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh7
+PROCEDURE _4um051n3k
 SQLEXEC(gnx,"select * from corfisico","corfisico")
 atp=INPUTBOX("Correlativo Actual de las Facturas Fisicas","Correlativo",ALLTRIM(STR(corfisico.idfacturaFisica)))
 ptp=VAL(atp)
@@ -553,271 +554,271 @@ endif
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH8  ON SELECTION BAR 2 OF POPUP notasanula      
+*       * _4UM051N3L  ON SELECTION BAR 2 OF POPUP notasanula      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   37          
+*       * From Menu:  MENU1.MPR,            Record:   38          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP notasanula      
 *       * Prompt:     Nota de Debito                              
 *       * Snippet:    14                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh8
+PROCEDURE _4um051n3l
 abrirform("frmnotadedebito")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNH9  ON SELECTION BAR 3 OF POPUP notasanula      
+*       * _4UM051N3M  ON SELECTION BAR 3 OF POPUP notasanula      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   38          
+*       * From Menu:  MENU1.MPR,            Record:   39          
 *       * Called By:  ON SELECTION BAR 3 OF POPUP notasanula      
 *       * Prompt:     Inscripcion                                 
 *       * Snippet:    15                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnh9
+PROCEDURE _4um051n3m
 abrirform("frmanulacionins")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHA  ON SELECTION BAR 4 OF POPUP notasanula      
+*       * _4UM051N3N  ON SELECTION BAR 4 OF POPUP notasanula      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   39          
+*       * From Menu:  MENU1.MPR,            Record:   40          
 *       * Called By:  ON SELECTION BAR 4 OF POPUP notasanula      
 *       * Prompt:     Solvencia                                   
 *       * Snippet:    16                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnha
+PROCEDURE _4um051n3n
 abrirform("frmsolvencia")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHB  ON SELECTION BAR 1 OF POPUP notadecred      
+*       * _4UM051N3O  ON SELECTION BAR 1 OF POPUP notadecred      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   35          
+*       * From Menu:  MENU1.MPR,            Record:   36          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP notadecred      
 *       * Prompt:     Por Factura                                 
 *       * Snippet:    17                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhb
+PROCEDURE _4um051n3o
 abrirform("frmnotadecredito")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHC  ON SELECTION BAR 2 OF POPUP notadecred      
+*       * _4UM051N3P  ON SELECTION BAR 2 OF POPUP notadecred      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   36          
+*       * From Menu:  MENU1.MPR,            Record:   37          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP notadecred      
 *       * Prompt:     Por Alumno                                  
 *       * Snippet:    18                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhc
+PROCEDURE _4um051n3p
 abrirform("frmnotadecredito1")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHD  ON SELECTION BAR 1 OF POPUP inventario      
+*       * _4UM051N3Q  ON SELECTION BAR 1 OF POPUP inventario      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   42          
+*       * From Menu:  MENU1.MPR,            Record:   43          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP inventario      
 *       * Prompt:     Entrada/Salida                              
 *       * Snippet:    19                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhd
+PROCEDURE _4um051n3q
 abrirform("frmentrada")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHE  ON SELECTION BAR 1 OF POPUP alumnos         
+*       * _4UM051N3R  ON SELECTION BAR 1 OF POPUP alumnos         
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   47          
+*       * From Menu:  MENU1.MPR,            Record:   48          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP alumnos         
 *       * Prompt:     General de Alumnos                          
 *       * Snippet:    20                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhe
+PROCEDURE _4um051n3r
 abrirform("frmrepgeneral")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHF  ON SELECTION BAR 2 OF POPUP alumnos         
+*       * _4UM051N3S  ON SELECTION BAR 2 OF POPUP alumnos         
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   48          
+*       * From Menu:  MENU1.MPR,            Record:   49          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP alumnos         
 *       * Prompt:     Morosos                                     
 *       * Snippet:    21                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhf
+PROCEDURE _4um051n3s
 abrirform("frmrepmorosos")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHG  ON SELECTION BAR 3 OF POPUP alumnos         
+*       * _4UM051N3T  ON SELECTION BAR 3 OF POPUP alumnos         
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   49          
+*       * From Menu:  MENU1.MPR,            Record:   50          
 *       * Called By:  ON SELECTION BAR 3 OF POPUP alumnos         
 *       * Prompt:     Recordatorio                                
 *       * Snippet:    22                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhg
+PROCEDURE _4um051n3t
 abrirform("frmrecordatorio")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHH  ON SELECTION BAR 4 OF POPUP alumnos         
+*       * _4UM051N3U  ON SELECTION BAR 4 OF POPUP alumnos         
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   50          
+*       * From Menu:  MENU1.MPR,            Record:   51          
 *       * Called By:  ON SELECTION BAR 4 OF POPUP alumnos         
 *       * Prompt:     Saldos                                      
 *       * Snippet:    23                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhh
+PROCEDURE _4um051n3u
 abrirform("frmrepgensaldos")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHI  ON SELECTION BAR 1 OF POPUP _4a30mkwvf      
+*       * _4UM051N3V  ON SELECTION BAR 1 OF POPUP _4a30mkwvf      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   53          
+*       * From Menu:  MENU1.MPR,            Record:   54          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP _4a30mkwvf      
 *       * Prompt:     Ingresos a bancos                           
 *       * Snippet:    24                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhi
+PROCEDURE _4um051n3v
 ABRIRFORM('frmreportebancos')
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHJ  ON SELECTION BAR 2 OF POPUP _4a30mkwvf      
+*       * _4UM051N3W  ON SELECTION BAR 2 OF POPUP _4a30mkwvf      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   54          
+*       * From Menu:  MENU1.MPR,            Record:   55          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP _4a30mkwvf      
 *       * Prompt:     Reporte general de ventas                   
 *       * Snippet:    25                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhj
+PROCEDURE _4um051n3w
 abrirform('frmrepvetas')
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHK  ON SELECTION BAR 3 OF POPUP _4a30mkwvf      
+*       * _4UM051N3X  ON SELECTION BAR 3 OF POPUP _4a30mkwvf      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   55          
+*       * From Menu:  MENU1.MPR,            Record:   56          
 *       * Called By:  ON SELECTION BAR 3 OF POPUP _4a30mkwvf      
 *       * Prompt:     Reporte general de productos                
 *       * Snippet:    26                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhk
+PROCEDURE _4um051n3x
 abrirform("frmrepproductos")
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHL  ON SELECTION BAR 1 OF POPUP reimpresio      
+*       * _4UM051N3Y  ON SELECTION BAR 1 OF POPUP reimpresio      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   58          
+*       * From Menu:  MENU1.MPR,            Record:   59          
 *       * Called By:  ON SELECTION BAR 1 OF POPUP reimpresio      
 *       * Prompt:     Factura                                     
 *       * Snippet:    27                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhl
+PROCEDURE _4um051n3y
 abrirform('frmreimprimir')
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHM  ON SELECTION BAR 2 OF POPUP reimpresio      
+*       * _4UM051N3Z  ON SELECTION BAR 2 OF POPUP reimpresio      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   59          
+*       * From Menu:  MENU1.MPR,            Record:   60          
 *       * Called By:  ON SELECTION BAR 2 OF POPUP reimpresio      
 *       * Prompt:     Nota de Credito                             
 *       * Snippet:    28                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhm
+PROCEDURE _4um051n3z
 abrirform('frmreimprimirnotac')
 
 
 *       *********************************************************
 *       *                                                         
-*       * _4UK0XPNHN  ON SELECTION BAR 3 OF POPUP reimpresio      
+*       * _4UM051N40  ON SELECTION BAR 3 OF POPUP reimpresio      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  MENU1.MPR,            Record:   60          
+*       * From Menu:  MENU1.MPR,            Record:   61          
 *       * Called By:  ON SELECTION BAR 3 OF POPUP reimpresio      
 *       * Prompt:     Nota de Debito                              
 *       * Snippet:    29                                          
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4uk0xpnhn
+PROCEDURE _4um051n40
 abrirform('frmreimprimirnotad')

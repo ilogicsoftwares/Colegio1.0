@@ -1,10 +1,12 @@
-PUBLIC gnx
-Store SQLConnect('colegio', 'root', '693693123456') To gnx
-SET DEFAULT TO "c:\colegio\"
-SET PROCEDURE TO procedures
+*PUBLIC gnx
+PUBLIC gnx2
+*Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To To gnx
+
+*SET PROCEDURE TO procedures
 procedure ejecutarsqls
 LPARAMETERS sfile,dbmsf
-Store SQLConnect('colegio', 'root', '693693123456') To gnx2
+Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx2
+SQLSETPROP(gnx2,"DispWarnings",.T.)
 SQLEXEC(gnx2,'use ' + db)
 sscript=FILETOSTR(sfile)
 
@@ -107,7 +109,7 @@ ENDFUNC
 
 FUNCTION guardardatosenform
 LPARAMETERS tabla,nformulario
-Store SQLConnect('colegio', 'root', '693693123456') To gnx2
+
 loscampos=""
 losvalores=""
 separador=","
@@ -116,9 +118,10 @@ FOR l=1 TO &nformulario..ControlCount
 IF (UPPER(&nformulario..Controls(l).baseclass)='TEXTBOX' OR UPPER(&nformulario..Controls(l).baseclass)='CHECKBOX' OR UPPER(&nformulario..Controls(l).baseclass)='COMBOBOX' OR UPPER(&nformulario..Controls(l).baseclass)='OPTIONGROUP') AND &nformulario..Controls(l).tag<>'a' THEN
 
 ****control errores
-*!*	a=&nformulario..Controls(l).value
-*!*	MESSAGEBOX(&nformulario..Controls(l).name)
+*!*		a=&nformulario..Controls(l).value
+*!*		MESSAGEBOX(&nformulario..Controls(l).name)
 *!*	MESSAGEBOX(TYPE('a'))
+
 ******************++
 loscampos=loscampos + &nformulario..Controls(l).name + separador
 IF UPPER(&nformulario..Controls(l).baseclass)='COMBOBOX'
@@ -135,11 +138,13 @@ t2=LEN(losvalores)
 loscampos=SUBSTR(loscampos,1,t1-1)
 losvalores=SUBSTR(losvalores,1,t2-1)
 ****control errores
-*!*	MESSAGEBOX(LOSCAMPOS)
-*!*	MESSAGEBOX(LOSVALORES)
+*!*		MESSAGEBOX(LOSCAMPOS)
+*!*		MESSAGEBOX(LOSVALORES)
 *********************
 sqll="insert into " + tabla + " (" +loscampos+ ") " + "values (" +losvalores +")" 
 
+Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx2
+SQLSETPROP(gnx2,"DispWarnings",.T.)
 ll=SQLEXEC(gnx2,sqll)
 IF ll>=0 then
 MESSAGEBOX("Datos guardados exitosamente",0+64)
@@ -156,18 +161,19 @@ LPARAMETERS nformulario
 FOR I=1 TO &nformulario..ControlCount
 IF UPPER(&nformulario..Controls(i).baseclass)='TEXTBOX' AND (&nformulario..Controls(i).wHATStHIShELPid)=-1
 
-IF EMPTY(&nformulario..Controls(i).value) then
+IF EMPTY(&nformulario..Controls(i).value)   then
 
 MESSAGEBOX("Debe completar todos los datos",0+64)
 RETURN .f.
 ELSE
-RETURN .T.
+NEXT 
 endif
 ENDIF
 
 
 
 IF UPPER(&nformulario..Controls(i).baseclass)='CHECKBOX' AND EMPTY(&nformulario..Controls(i).tag)
+
 ENDIF
 
 IF UPPER(&nformulario..Controls(i).baseclass)='COMBOBOX' AND EMPTY(&nformulario..Controls(i).tag) THEN 
@@ -175,7 +181,7 @@ IF UPPER(&nformulario..Controls(i).baseclass)='COMBOBOX' AND EMPTY(&nformulario.
 ENDif
 
 ENDFOR
-
+RETURN .T.
 ENDFUNC
 
 
@@ -257,8 +263,6 @@ CASE TYPE('a')='C'
 &temp=""
 ENDCASE
 
-
-
 ENDIF
 
 ENDFOR
@@ -274,8 +278,13 @@ FOR EACH formulario as form IN _screen.Forms
 IF UPPER(formulario.Name)=UPPER(nombreform)   then
 EXIT
 ELSE
-
+TRY 
 DO FORM &nombreform
+CATCH
+msg("El Formularion no se encuentra activo","E")
+
+
+ENDTRY
 exit
 ENDIF
 
@@ -353,14 +362,14 @@ ENDPROC
 
 PROCEDURE crearformulario()
 LPARAMETERS tabla
-Store SQLConnect('colegio', 'root', '693693123456') To gnx3
-SET DEFAULT TO c:\colegio
+Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx3
+
 CREATE form ? as formn FROM clases NOWAIT save
 
 yx=SQLEXEC(gnx3,"select * from " + tabla,tabla)
 
 IF yx>0 then
-COPY TO "c:\colegio\" + tabla + ".dbf"
+COPY TO npath +"\" +tabla + ".dbf"
 ELSE
 MESSAGEBOX("No se pudieron crear los datos del form")
 endif
