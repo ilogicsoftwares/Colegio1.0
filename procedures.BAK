@@ -6,6 +6,7 @@ PUBLIC gnx2
 procedure ejecutarsqls
 LPARAMETERS sfile,dbmsf
 Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx2
+SQLSETPROP(gnx2,"DispWarnings",.T.)
 SQLEXEC(gnx2,'use ' + db)
 sscript=FILETOSTR(sfile)
 
@@ -141,8 +142,9 @@ losvalores=SUBSTR(losvalores,1,t2-1)
 *!*		MESSAGEBOX(LOSVALORES)
 *********************
 sqll="insert into " + tabla + " (" +loscampos+ ") " + "values (" +losvalores +")" 
-MESSAGEBOX(sqll)
+
 Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx2
+SQLSETPROP(gnx2,"DispWarnings",.T.)
 ll=SQLEXEC(gnx2,sqll)
 IF ll>=0 then
 MESSAGEBOX("Datos guardados exitosamente",0+64)
