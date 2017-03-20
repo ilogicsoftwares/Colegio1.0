@@ -472,7 +472,11 @@ lnAnio = lnAnio - 1
 ENDIF 
 RETURN lnAnio 
 ENDFUNC 
-
+FUNCTION meses()
+lpara	 fecha1,fecha2
+res=ROUND((fecha2-fecha1)/365*12,-1)
+RETURN res
+ENDFUNC
 FUNCTION AnularFactura
 LPARAMETERS nfactura,idnotac
 lreturn=0

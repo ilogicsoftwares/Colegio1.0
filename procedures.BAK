@@ -79,7 +79,7 @@ FUNCTION Editardatosenform
 *tabla a editar,nombre del campo indice,el valor del indice,el nombre del formulario
 LPARAMETERS TABLA,NOMBREINDICE,VALORINDICE,nformulario
 FOR i=1 TO &nformulario..ControlCount 
-IF (UPPER(&nformulario..Controls(i).baseclass)='TEXTBOX' OR UPPER(&nformulario..Controls(i).baseclass)='CHECKBOX' OR UPPER(&nformulario..Controls(i).baseclass)='COMBOBOX' OR UPPER(&nformulario..Controls(i).baseclass)='OPTIONGROUP') AND &nformulario..Controls(i).tag<>"a" THEN
+IF (UPPER(&nformulario..Controls(i).baseclass)='TEXTBOX' OR UPPER(&nformulario..Controls(i).baseclass)='CHECKBOX' OR UPPER(&nformulario..Controls(i).baseclass)='COMBOBOX' OR UPPER(&nformulario..Controls(i).baseclass)='OPTIONGROUP' OR UPPER(&nformulario..Controls(i).baseclass)='SPINNER' ) AND &nformulario..Controls(i).tag<>"a" THEN
 nombrecampo=&nformulario..Controls(i).name
 valorcampo=&nformulario..Controls(i).value
 valorbusqueda=VALORINDICE
