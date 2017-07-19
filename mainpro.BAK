@@ -18,9 +18,7 @@ odbcnombre=""
 odbcclave=""
 odbcusuario=""
 odbcdatabase=""
-*SET DEFAULT TO "\colegio1.0"
-SET DEFAULT TO ADDBS(JUSTPATH(SYS(16)))
-initf=FILETOSTR('firstini.cfg')
+initf=FILETOSTR('c:\colegio\firstini.cfg')
 
 ALINES(initarray,initf)
 
@@ -42,8 +40,8 @@ odbcusuario=ALLTRIM(SUBSTR(initarray(5),1,29))
 odbcdatabase=ALLTRIM(SUBSTR(initarray(3),1,29))
 
 Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx
-
 SQLSETPROP(gnx,"DispWarnings",.T.)
+
 
 
 
@@ -59,7 +57,7 @@ odbcusuario=ALLTRIM(SUBSTR(initarray(5),1,29))
 odbcdatabase=ALLTRIM(SUBSTR(initarray(3),1,29))
 
 Store SQLConnect(odbcnombre, odbcusuario, odbcclave) To gnx
-SQLSETPROP(gnx2,"DispWarnings",.T.)
+SQLSETPROP(gnx,"DispWarnings",.T.)
 SQLEXEC(gnx,"select idperiodo from periodo where estatus=1","perx")
 PUBLIC periact as Integer 
 periact=perx.idperiodo
